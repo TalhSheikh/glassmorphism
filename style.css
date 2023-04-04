@@ -14,7 +14,7 @@ body{
 }
 ::selection{
   color: #f2f2f2;
-  background: #ff0000;
+  background: pink;
 }
 body::before,
 body::after{
@@ -28,12 +28,12 @@ body::after{
 body::before{
   clip-path: circle(30% at left 20%);
   opacity: 0.4;
-  background-image: linear-gradient( 135deg, pink 10%, pink 100%);
+  background-image: linear-gradient( 135deg, white 10%, white 100%);
 }
 body::after{
   opacity: 0.4;
   clip-path: circle(25% at right 80%);
-  background-image: linear-gradient( 135deg, pink 10%, pink 100%);
+  background-image: linear-gradient( 135deg, white 10%, white 100%);
 }
 header{
   height: 85vh;
@@ -153,4 +153,3 @@ header .play-button{
     padding: 15px 10px;
 }
 }
- 
